@@ -1,0 +1,159 @@
+Data type torch.float32
+Benchmarking on device: cuda, dtype: torch.float32
+
+Input size: 1
+
+TeLU
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-1.4433e-43, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+GeLU
+905797
+tensor(0., device='cuda:0')
+tensor(-14.4203, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-7.0065e-45, device='cuda:0')
+tensor(-14.4202, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Smish
+530139
+tensor(0., device='cuda:0')
+tensor(-51.9861, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-2.7528e-21, device='cuda:0')
+tensor(-51.9860, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Logish
+530139
+tensor(0., device='cuda:0')
+tensor(-51.9861, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-2.7528e-21, device='cuda:0')
+tensor(-51.9860, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+ReLU
+1050000
+tensor(0., device='cuda:0')
+tensor(-2.6525e-06, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1., device='cuda:0')
+tensor(9.7347e-05, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Mish
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-1.4574e-43, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Swish
+162771
+tensor(0., device='cuda:0')
+tensor(-88.7229, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-2.5780e-37, device='cuda:0')
+tensor(-88.7228, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Softplus
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1.4013e-45, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+ELU
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1.4013e-45, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+
+
+_________Swish Definition below. Sigmoid Swish above_________
+
+
+
+Data type torch.float32
+Benchmarking on device: cuda, dtype: torch.float32
+
+Input size: 1
+
+TeLU
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-1.4433e-43, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+GeLU
+905797
+tensor(0., device='cuda:0')
+tensor(-14.4203, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-7.0065e-45, device='cuda:0')
+tensor(-14.4202, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Smish
+530139
+tensor(0., device='cuda:0')
+tensor(-51.9861, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-2.7528e-21, device='cuda:0')
+tensor(-51.9860, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Logish
+530139
+tensor(0., device='cuda:0')
+tensor(-51.9861, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-2.7528e-21, device='cuda:0')
+tensor(-51.9860, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+ReLU
+1050000
+tensor(0., device='cuda:0')
+tensor(-2.6525e-06, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1., device='cuda:0')
+tensor(9.7347e-05, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Mish
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-1.4574e-43, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Swish
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(-1.4433e-43, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+Softplus
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1.4013e-45, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+
+
+ELU
+10279
+tensor(0., device='cuda:0')
+tensor(-103.9721, device='cuda:0', grad_fn=<SelectBackward0>)
+tensor(1.4013e-45, device='cuda:0')
+tensor(-103.9720, device='cuda:0', grad_fn=<SelectBackward0>)
+

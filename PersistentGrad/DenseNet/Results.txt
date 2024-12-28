@@ -1,0 +1,25 @@
+DenseNet SGD:
+
+Average TeLU convergance Training accuracy: 99.897
+Average TeLU convergance Validation accuracy: 87.620
+Average TeLU convergance Testing accuracy: 86.806
+Stdv of TeLU convergance Validation accuracy: 0.197
+Average TeLU convergance epoch: 159.300
+Average TeLU fitting index: 0.008
+Stdv of TeLU convergance test accuracy: 0.282
+
+Average GELU convergance Training accuracy: 99.946
+Average GELU convergance Validation accuracy: 86.669
+Average GELU convergance Testing accuracy: 85.825
+Stdv of GELU convergance Validation accuracy: 0.178
+Average GELU convergance epoch: 179.900
+Average GELU fitting index: 0.004
+Stdv of GELU convergance test accuracy: 0.279
+
+Average ReLU convergance Training accuracy: 99.910
+Average ReLU convergance Validation accuracy: 86.243
+Average ReLU convergance Testing accuracy: 85.386
+Stdv of ReLU convergance Validation accuracy: 0.176
+Average ReLU convergance epoch: 182.900
+Average ReLU fitting index: 0.006
+Stdv of ReLU convergance test accuracy: 0.200
